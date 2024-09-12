@@ -1,0 +1,77 @@
+.inbox-container {
+  height: 100vh;
+  overflow: hidden;
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .search-bar {
+    input {
+      width: 97%;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 10px;
+    }
+  }
+
+  .inbox-list {
+    margin-top: 15px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+
+  .message-container {
+    .message {
+      position: relative;
+      border-bottom: 1px solid #dcdcdc;
+      padding: 10px 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .single-icon {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      .single-icon.starred {
+        color: gold;
+      }
+
+      .subject {
+        font-weight: bold;
+      }
+      .subject-read {
+        font-weight: normal;
+      }
+    }
+
+    .message:not(:first-child) {
+      border-top: 1px solid #dcdcdc;
+    }
+  }
+}
+
+.actions-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.icons-list {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+
+  .action-icon {
+    margin-right: 10px;
+  }
+}
+
+.message:hover .icons-list {
+  display: flex;
+}

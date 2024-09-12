@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "subject": "Welcome",
+    "content": "Hello how are you doing today!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 2,
+    "subject": "Meeting Reminder",
+    "content": "Don't forget our meeting pleaseee",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 3,
+    "subject": "Project Update",
+    "content": "Project is on track, great job!!",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 4,
+    "subject": "Invoice",
+    "content": "Please find attached invoice",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 5,
+    "subject": "Newsletter",
+    "content": "This month's newsletter, with cool things!",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 6,
+    "subject": "Job Application Status",
+    "content": "You're hired! Welcome to the team",
+    "isRead": false,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 7,
+    "subject": "Event Invitation",
+    "content": "You're invited to our event",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 8,
+    "subject": "Promotion",
+    "content": "Special offer just for you",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 9,
+    "subject": "Feedback Request",
+    "content": "We value your feedback",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 10,
+    "subject": "System Alert",
+    "content": "Important system update",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 11,
+    "subject": "Holiday Plans",
+    "content": "What are your holiday plans this year? Let's catch up soon!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 12,
+    "subject": "Password Reset",
+    "content": "You requested a password reset. Click the link below to proceed.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 13,
+    "subject": "Team Outing",
+    "content": "We are planning a team outing next Friday. Make sure to RSVP by this week!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 14,
+    "subject": "Weekly Report",
+    "content": "Here is the weekly report for your review. Please provide feedback.",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 15,
+    "subject": "Birthday Reminder",
+    "content": "It's John's birthday next week! Don’t forget to wish him.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 16,
+    "subject": "Survey Participation",
+    "content": "Please participate in our survey. Your feedback matters!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 17,
+    "subject": "Project Delay",
+    "content": "Due to unforeseen circumstances, the project will be delayed by two weeks.",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 18,
+    "subject": "Security Alert",
+    "content": "We detected suspicious activity on your account. Please review immediately.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 19,
+    "subject": "Client Feedback",
+    "content": "The client has provided positive feedback on the last deliverable.",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 20,
+    "subject": "Meeting Rescheduled",
+    "content": "The meeting has been rescheduled to next Monday at 10 AM.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 21,
+    "subject": "Job Offer",
+    "content": "Congratulations! We are excited to extend you an offer to join our company.",
+    "isRead": false,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 22,
+    "subject": "Discount Code",
+    "content": "Here's your exclusive discount code for 20% off your next purchase!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 23,
+    "subject": "Conference Reminder",
+    "content": "Reminder: The annual tech conference starts tomorrow. Don’t forget to attend.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 24,
+    "subject": "New Features",
+    "content": "Check out the new features we've added to the app. We hope you enjoy them!",
+    "isRead": false,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 25,
+    "subject": "System Maintenance",
+    "content": "There will be scheduled system maintenance on Saturday at 1 AM. Services may be unavailable for a few hours.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 26,
+    "subject": "Employee Survey",
+    "content": "We are conducting an internal survey to improve workplace conditions. Please take a few minutes to fill it out.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 27,
+    "subject": "Promotion Announcement",
+    "content": "We are thrilled to announce that you have been promoted to Senior Manager. Congratulations on your achievement!",
+    "isRead": false,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 28,
+    "subject": "Payment Confirmation",
+    "content": "Your payment has been successfully processed. Thank you for your business.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 29,
+    "subject": "Training Session",
+    "content": "Reminder: Your training session is scheduled for this Thursday at 2 PM.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 30,
+    "subject": "Account Deactivation",
+    "content": "Your account will be deactivated if there is no activity within the next 30 days. Please log in to keep it active.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 31,
+    "subject": "Vacation Request Approved",
+    "content": "Your vacation request for the dates you submitted has been approved. Enjoy your time off!",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 32,
+    "subject": "Annual Performance Review",
+    "content": "Your annual performance review has been scheduled for next Tuesday at 11 AM. Please prepare accordingly.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 33,
+    "subject": "New Policy Update",
+    "content": "We have updated our company policies regarding remote work. Please review the changes.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 34,
+    "subject": "Webinar Invitation",
+    "content": "You're invited to attend a special webinar on productivity hacks next Wednesday. Register now to reserve your spot!",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": true
+  },
+  {
+    "id": 35,
+    "subject": "Happy Hour Reminder",
+    "content": "Don’t forget about the team happy hour this Friday at 6 PM. See you there!",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 36,
+    "subject": "Document Expiration Notice",
+    "content": "One of your important documents is about to expire. Please renew it before the deadline.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 37,
+    "subject": "New Task Assigned",
+    "content": "You have been assigned a new task. Please check your task list for details.",
+    "isRead": true,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 38,
+    "subject": "Client Meeting Follow-Up",
+    "content": "Here is a summary of the action items from our recent client meeting. Please review and provide any feedback.",
+    "isRead": true,
+    "isStarred": true,
+    "isArchived": false,
+    "isTrash": false
+  },
+  {
+    "id": 39,
+    "subject": "Weather Alert",
+    "content": "Severe weather is expected in your area over the next few days. Stay safe and take necessary precautions.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": true,
+    "isTrash": false
+  },
+  {
+    "id": 40,
+    "subject": "Password Expiration Notice",
+    "content": "Your password will expire in 7 days. Please update it to ensure continued access to your account.",
+    "isRead": false,
+    "isStarred": false,
+    "isArchived": false,
+    "isTrash": false
+  }
+]

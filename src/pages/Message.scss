@@ -1,0 +1,29 @@
+.msg-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+
+  .arrow {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    cursor: pointer;
+  }
+
+  .msg-content {
+    margin: 3rem 0;
+    background-color: #f0f4f8;
+    width: 60%;
+    border-radius: 20px;
+  }
+  .dark {
+    background-color: black !important;
+    color: white;
+    border: white 1px solid;
+  }
+
+  .msg {
+    padding: 20px;
+  }
+}

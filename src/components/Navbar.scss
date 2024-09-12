@@ -1,0 +1,33 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-right: 15px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    li:not(:first-child):hover {
+      background-color: #00bf72;
+    }
+  }
+}
