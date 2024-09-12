@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
 import { MailInboxContext } from "../contexts/MailnboxProvider";
 import "./Profile.scss";
+import Navbar from "../components/Navbar";
 
 const Profile = () => {
-  const { unreadCount, totalCount } = useContext(MailInboxContext);
+  const { theme, unreadCount, totalCount } = useContext(MailInboxContext);
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -15,7 +16,10 @@ const Profile = () => {
   }, []);
 
   return (
-    <div className="profile-container">
+    <div
+      className={`profile-container ${theme === "dark" ? "profile-dark" : ""}`}
+    >
+      <Navbar listItems={[]} isProfile={true} />
       <div className="profile-content">
         <h2>Profile Overview</h2>
         <div className="profile-info">

@@ -1,12 +1,19 @@
 import React from "react";
 import "./Navbar.scss";
+import { IoMdHome } from "react-icons/io";
+
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Navbar = (props) => {
   const navigate = useNavigate();
-  const { listItems } = props;
+  const { listItems, isHome, isProfile } = props;
+
+  const goBackHandler = () => {
+    navigate(-1);
+  };
 
   const onInboxHandler = () => {
     navigate("/inbox");
@@ -26,9 +33,16 @@ const Navbar = (props) => {
     <div className="nav">
       <div className="logo">
         <span>
-          <IoMdMail size={30} />
+          {isHome ? (
+            <>
+              <IoMdMail size={30} /> <span className="text">Mail</span>
+            </>
+          ) : (
+            <div className="arrow" onClick={goBackHandler}>
+              <FaArrowLeft size={40} />
+            </div>
+          )}
         </span>
-        Mail
       </div>
       <ul>
         {listItems.map((el, i) => (
@@ -37,8 +51,10 @@ const Navbar = (props) => {
           </li>
         ))}
         <li>
-          {" "}
-          <FaRegUserCircle onClick={() => onProfileHandler()} size={30} />
+          {!isProfile && (
+            <FaRegUserCircle onClick={() => onProfileHandler()} size={30} />
+          )}
+          {isProfile && <IoMdHome size={40} />}
         </li>
       </ul>
     </div>

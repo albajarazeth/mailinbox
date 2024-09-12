@@ -24,10 +24,6 @@ const Inbox = (props) => {
     { icon: <FaRegTrashAlt />, label: "Trash" },
   ];
 
-  const handleStarredClick = () => {
-    setCurrentLabel("Starred");
-  };
-
   let currentSection;
 
   switch (currentLabel) {

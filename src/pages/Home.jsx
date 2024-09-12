@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   const { theme, unreadCount, totalCount } = useContext(MailInboxContext);
   const navigate = useNavigate();
+  const isHome = true;
 
   const handleViewMessages = () => {
     navigate("/inbox");
@@ -17,7 +18,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <Navbar listItems={listItems} />
+      <Navbar isHome={isHome} listItems={listItems} />
       <div className="home-content">
         <div className="home-hero">
           <div>

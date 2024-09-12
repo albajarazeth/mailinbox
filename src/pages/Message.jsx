@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { MailInboxContext } from "../contexts/MailnboxProvider";
 import { FaArrowLeft } from "react-icons/fa";
+import { IoMdHome } from "react-icons/io";
 
 import "./Message.scss";
 
@@ -20,10 +21,19 @@ const Message = () => {
     navigate(-1);
   };
 
+  const onHomeHandler = () => {
+    navigate("/");
+  };
+
   return (
     <div className="msg-container">
-      <div onClick={goBackHandler} className="arrow">
-        <FaArrowLeft size={40} />
+      <div className="arrow">
+        <div onClick={goBackHandler} className="left-arrow">
+          <FaArrowLeft size={40} />
+        </div>
+        <div onClick={onHomeHandler} className="home">
+          <IoMdHome size={40} />
+        </div>
       </div>
       <div className={`msg-content ${theme !== "light" ? "dark" : ""}`}>
         <div className="msg">

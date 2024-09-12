@@ -8,8 +8,17 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+    .arrow {
+      cursor: pointer;
+      margin-top: 0.4rem;
+      margin-left: 1.5rem;
+    }
     span {
       margin-right: 10px;
+      display: flex;
+    }
+    .text {
+      margin-left: 10px;
     }
   }
   ul {

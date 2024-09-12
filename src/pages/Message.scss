@@ -3,12 +3,22 @@
   justify-content: center;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 
   .arrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    top: 1rem;
-    left: 2rem;
     cursor: pointer;
+    .left-arrow {
+      margin-top: 1rem;
+      margin-left: 1.9rem;
+    }
+    .home {
+      margin-right: 1.9rem;
+      margin-top: 1rem;
+    }
   }
 
   .msg-content {
