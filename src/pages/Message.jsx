@@ -38,6 +38,7 @@ const Message = () => {
       <div className={`msg-content ${theme !== "light" ? "dark" : ""}`}>
         <div className="msg">
           <h2>{message.subject}</h2>
+          <div className="line"></div>
           <p>{message.content}</p>
         </div>
       </div>
