@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/inbox" element={<Inbox />} />
           <Route path="/message/:id" element={<Message />} />
-          <Route path="/profile" e lement={<Profile />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>
     </MailInboxProvider>
