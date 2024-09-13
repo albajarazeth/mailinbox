@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { CiUnread } from "react-icons/ci";
 import { CiRead } from "react-icons/ci";
-
+import { IoMdClose } from "react-icons/io";
 import { MailInboxContext } from "../contexts/MailnboxProvider";
 import { useNavigate } from "react-router-dom";
 
@@ -172,6 +172,10 @@ const InboxSection = (props) => {
     onReadHandler(el.id);
     navigate(`/message/${el.id}`);
   };
+
+  const onClear = () => {
+    setSearchQuery("");
+  };
   return (
     <div className="inbox-container">
       <span className="title">{title}</span>
@@ -182,6 +186,7 @@ const InboxSection = (props) => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
+        <IoMdClose onClick={onClear} className="close-icon" />
       </div>
       <div className="inbox-list">
         <div className="message-container">

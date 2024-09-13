@@ -7,12 +7,24 @@
   }
 
   .search-bar {
+    display: flex;
+    position: relative;
+
     input {
       width: 97%;
       font-size: 16px;
       border: 1px solid #ccc;
       border-radius: 15px;
       padding: 10px;
+      position: relative;
+      padding-right: 30px;
+    }
+    .close-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
     }
   }
 
